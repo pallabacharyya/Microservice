@@ -1,0 +1,8 @@
+applications:
+- name: SpringBootH2IntegrationApplication
+  disk_quota: 1G
+  instances: 1
+  path: target/SpringBootH2IntegrationApplication-0.0.1-SNAPSHOT.jar
+  memory: 1G
+  routes:
+  - route: springBootH2IntegrationApplication-api-poc.cfapps.io
